@@ -100,7 +100,7 @@ public class LinkedList2 {
     }
 
     public void insertAfter(Node _nodeAfter, Node _nodeToInsert) {
-        Node node = this.find(_nodeAfter.value);
+        Node node = _nodeAfter != null ? this.find(_nodeAfter.value) : null;
         if (node == null) {
             this.addInHead(_nodeToInsert);
             return;

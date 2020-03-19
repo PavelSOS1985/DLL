@@ -96,7 +96,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        testAddInTail(testList, testData, 4);
+        //testAddInTail(testList, testData, 4);
         //testAddInHead(testList, testData, 2);
 
         System.out.println("==================");
@@ -110,8 +110,8 @@ public class Test {
         //testFind(3, testList);
         //testFindAll(1, testList, 2);
         //testRemove(2, testList);
-        testRemoveAll(1, testList);
-        testInsertAfter(n3, nInsert, testList);
+        //testRemoveAll(1, testList);
+        testInsertAfter(null, nInsert, testList);
 
 
         System.out.println("==================");
